@@ -1,0 +1,26 @@
+$primary: #333790;
+.light-green {
+    color: #57b1a8;
+}
+.revez {
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    text-orientation: mixed;
+    -webkit-transform: rotate(90deg);
+}
+.semi-gray {
+    background-color: #f0f0f0;
+}
+.text-fill:before {
+    content: "";
+    position: absolute;
+    border-top: 4px solid #333790;
+    width: 141px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(37deg);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+}
+$p-1: 1px;
+@import "../node_modules/bootstrap/scss/bootstrap";
